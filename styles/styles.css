@@ -734,15 +734,16 @@ footer {
         font-size: 35px;
     }
 
-    .onamatext{
-        width: 100%;
-    }
 
 }
 
 @media screen and (max-width: 600px) {
     .about1-text-box h1 {
         font-size: 15px;
+    }
+
+    .onamatext{
+        width: 100%;
     }
 }
 
