@@ -203,12 +203,12 @@ nav {
 }
 
 .close i {
-    color: #eb648c;
+    color: red;
 }
 
 .nav-list {
     height: 100vh;
-    background-color: #fafafa;
+    background-color: white;
     position: fixed;
     top: 0;
     right: -26rem;
@@ -220,13 +220,24 @@ nav {
     transition: all 650ms ease-in-out;
 }
 
-.nav-list {
-    color: white;
-}
-
 .nav-list.active {
+    z-index: 1000;
     right: 0;
     width: 200px;
+    font-size: 15px;
+}
+
+.nav-list.active li{
+    padding: 15px;
+}
+
+.nav-list.active a{
+    color: #005cbf;
+}
+
+.nav-list.active .language{
+    color: #005cbf;
+    font-size: 25px;
 }
 
 .close {
@@ -355,6 +366,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
+    z-index: 1;
 }
 
 .cardsgrid-item {
