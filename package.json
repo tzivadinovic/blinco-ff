@@ -1,0 +1,21 @@
+{
+  "name": "blinco-ff",
+  "version": "1.0.0",
+  "description": "**Blinco FF**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "ssh toma@tomaz.cc 'git -C /home/toma/public/blinco-ff/ pull'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzivadinovic/blinco-ff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tzivadinovic/blinco-ff/issues"
+  },
+  "homepage": "https://github.com/tzivadinovic/blinco-ff#readme"
+}
