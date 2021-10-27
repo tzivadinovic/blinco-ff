@@ -699,6 +699,10 @@ footer {
         font-size: 12px;
     }
 
+    .custom-form input, textarea{
+        width: 300px;
+    }
+
 }
 
 @media screen and (max-width: 300px) {
