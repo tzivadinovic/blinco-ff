@@ -227,15 +227,15 @@ nav {
     font-size: 15px;
 }
 
-.nav-list.active li{
+.nav-list.active li {
     padding: 15px;
 }
 
-.nav-list.active a{
+.nav-list.active a {
     color: #005cbf;
 }
 
-.nav-list.active .language{
+.nav-list.active .language {
     color: #005cbf;
     font-size: 25px;
 }
@@ -390,11 +390,13 @@ nav {
     height: 100%;
     background-image: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(14, 40, 156, 0.8) 100%);
     z-index: -1;
+    border-radius: 5%;
 }
 
 .fishing {
     background: url("../assets/images/plovak11.jpg") center no-repeat;
     transition: ease-in-out .2s;
+    border-radius: 5%;
 }
 
 .fishing:hover {
@@ -415,11 +417,13 @@ nav {
 .wobblers {
     background: url("../assets/images/vrl1.jpg") center no-repeat;
     transition: ease-in-out .2s;
+    border-radius: 5%;
 }
 
 .rigs {
     background: url("../assets/images/sistemi.jpg") center no-repeat;
     transition: ease-in-out .2s;
+    border-radius: 5%;
 }
 
 .cardsgrid-item i {
@@ -754,7 +758,7 @@ footer {
         font-size: 15px;
     }
 
-    .onamatext{
+    .onamatext {
         width: 100%;
     }
 }
@@ -1091,4 +1095,49 @@ footer {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 300px;
+}
+
+.dropdown-content a {
+    color: rgb(14, 40, 156);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(14, 40, 156);
+    color: white;
+    transition: .2s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+}
+
+.download-pdf{
+    margin: 10px auto;
+    text-align: center;
 }
