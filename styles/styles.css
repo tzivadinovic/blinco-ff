@@ -1159,7 +1159,6 @@ footer {
 
 .form-btn{
     width: 120px;
-    border-radius: 15px;
     padding: 10px;
     border: none;
     background-color: #ffff00;
@@ -1168,6 +1167,7 @@ footer {
     transition: ease-in-out .2s;
     font-size: 15px;
     font-family: "Omnes", sans-serif;
+    border-radius: 2rem;
 }
 
 .form-btn:hover{
