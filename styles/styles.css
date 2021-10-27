@@ -24,6 +24,10 @@ nav h1 {
     color: white;
 }
 
+.blinco{
+    color: #ffff00;
+}
+
 .nav-item a {
     font-size: 1.5em;
 }
