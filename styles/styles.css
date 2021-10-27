@@ -340,10 +340,10 @@ nav {
 }
 
 .title-heading2 {
-    text-align: center;
     text-transform: uppercase;
     margin-bottom: 5rem;
     color: rgba(0, 0, 0, .7);
+
 }
 
 .title-heading1 h3 {
@@ -1103,4 +1103,73 @@ footer {
 .download-pdf{
     margin: 10px auto;
     text-align: center;
+}
+
+.custom-form{
+    font-size: 14px;
+    position: relative;
+    --field-padding: 12px;
+}
+
+.custom-form input, textarea{
+    margin: 10px;
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    /*padding: 12px;*/
+    border-radius: 3px;
+    width: 350px;
+    padding: var(--field-padding);
+    font-size: 14px;
+}
+
+.custom-form textarea{
+    height: 100px;
+}
+
+
+.custom-form .placeholder {
+    position: absolute;
+    left: 12px;
+    bottom: 50%;
+    top: 22px;
+    transform: translateY(-50%);
+    width: calc(100% - 24px);
+    color: #aaa;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.custom-form::after {
+    content: attr(aria-label);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.contact-form-field{
+    text-align: center;
+}
+
+.form-btn{
+    width: 120px;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #ffff00;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: ease-in-out .2s;
+    font-size: 15px;
+}
+
+.form-btn:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: .2s;
 }
