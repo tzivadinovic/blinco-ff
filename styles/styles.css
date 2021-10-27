@@ -659,6 +659,11 @@ footer {
     .onamatext p {
         font-size: 15px;
     }
+
+    .custom-form input, textarea{
+        width: 300px;
+    }
+
 }
 
 @media screen and (min-width: 1285px) {
@@ -698,26 +703,18 @@ footer {
     .onamatext p {
         font-size: 12px;
     }
-
-    .custom-form input, textarea{
-        width: 300px;
-    }
-
 }
 
 @media screen and (max-width: 300px) {
     .onamatext p {
         font-size: 12px;
     }
-
 }
 
 @media screen and (min-width: 601px) {
     .about1-text-box h1 {
         font-size: 35px;
     }
-
-
 }
 
 @media screen and (max-width: 600px) {
